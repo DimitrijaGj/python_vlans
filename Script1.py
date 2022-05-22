@@ -16,5 +16,9 @@ if password:
     tn.read_until("Password: ")
     tn.write(password + "\n")
 
+
+tn.write("int l0\n")
+tn.write("ip add 1.1.1.1 255.255.255.255")
+tn.write("")
 tn.write("enable\n")
 tn.write("cisco\n")
